@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap");
+
+.header {
+   color: white;
+   font-size: 5.5vw;
+   font-family: "Amatic SC", cursive;
+   background-color: rgba(255, 255, 255, 0.15);
+   border-radius: 0 0 0.5rem 0;
+   padding: 10px;
+}
+
+@media screen and (max-width: 1050px) {
+   .header {
+      font-size: 60px;
+   }
+}
+
+@media screen and (max-width: 300px) {
+   .header {
+      font-size: 40px;
+   }
+}

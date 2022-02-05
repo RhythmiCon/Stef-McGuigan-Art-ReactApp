@@ -1,0 +1,39 @@
+.container {
+   height: 70%;
+   min-height: 603px;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   align-items: center;
+}
+
+.button {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   font-family: "Amatic SC", cursive;
+   font-size: 4vw;
+   height: 175px;
+   width: 20vw;
+   background-color: rgba(255, 255, 255, 0.15);
+   border-radius: 0.5rem;
+}
+
+.button:hover {
+   font-size: 4.5vw;
+   transition: all 0.1s;
+   cursor: pointer;
+}
+
+@media screen and (max-width: 1050px) {
+   .button {
+      width: 210px;
+      height: 110px;
+      font-size: 40px;
+   }
+
+   .button:hover {
+      font-size: 45px;
+   }
+}

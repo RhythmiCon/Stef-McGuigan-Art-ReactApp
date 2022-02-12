@@ -5,5 +5,13 @@
 }
 
 .image_wrapper {
-   padding: 5px;
+   margin: 5px;
+}
+
+.image_wrapper:hover {
+   border: 20px solid white;
+   background-color: white;
+   transform: scale(1.3);
+   transition: all 0.1s;
+   z-index: 1;
 }

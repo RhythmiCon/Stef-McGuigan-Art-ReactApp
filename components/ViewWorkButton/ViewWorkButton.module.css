@@ -20,6 +20,11 @@
    border-radius: 0.5rem;
 }
 
+.button a {
+   text-decoration: none;
+   color: inherit;
+}
+
 .button:hover {
    font-size: 4.5vw;
    transition: all 0.1s;
@@ -34,6 +39,10 @@
    .button:hover {
       font-size: 4.5vw;
    }
+
+   .button:active {
+      font-size: 4vw;
+   }
 }
 
 @media screen and (max-width: 1050px) {
@@ -45,6 +54,10 @@
 
    .button:hover {
       font-size: 45px;
+   }
+
+   .button:active {
+      font-size: 40px;
    }
 }
 

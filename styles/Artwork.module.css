@@ -3,5 +3,8 @@
    width: 100vw;
    background-color: brown;
    display: flex;
+}
+
+.image_content {
    justify-content: center;
 }
